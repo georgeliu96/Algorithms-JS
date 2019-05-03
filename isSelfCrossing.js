@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/self-crossing/
+// HARD problem
 
 // You are given an array x of n positive numbers. 
 // You start at point (0,0) and moves x[0] metres to the north, 
