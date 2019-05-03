@@ -40,3 +40,11 @@ var numJewelsInStones = function(J, S) {
     
     return ans;
 };
+
+// One liner 
+// Time: Should also be O(m * n) ???
+    // filter is linear and so is indexOf
+// Space: O(1) ????
+    // aren't saving any variables 
+    
+const numJewelsInStones = (J, S) => S.split('').filter(char => J.indexOf(char) !== -1).length;
