@@ -24,6 +24,7 @@ describe("maxNonAdjacentSum(nums)", () => {
     expect(maxNonAdjacentSum([4, 2, 1, 6])).to.equal(10);
     expect(maxNonAdjacentSum([1, 2, 3, 1])).to.equal(4);
     expect(maxNonAdjacentSum([4, 1, 1, 10, 3, 2])).to.equal(16);
+    expect(maxNonAdjacentSum([1,4,1,10,3,2])).to.equal(16);
     expect(maxNonAdjacentSum([])).to.equal(0);
   });
 
